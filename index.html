@@ -1,14 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IMC</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
-        <h1>IMC</h1>
-        <input>teste</input>
+        <h1>OLT</h1>
+        <input type="text" id="nome" placeholder="nome"></input>
+        <input type="number" id="altura" placeholder="altura"></input>
+        <input type="number" id="peso" placeholder="peso"></input>
+        <button onclick="imc()">Calcular</button>
+        <textarea id="resultado"></textarea>
     </div>
+    <script src="./index.js"></script>
 </body>
+
 </html>
